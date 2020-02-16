@@ -37,6 +37,10 @@
 (require 'ido-completing-read+)
 (require 'flx-ido)
 
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+
 (setq ido-enable-prefix nil
       ido-enable-flex-matching t
       ido-create-new-buffer 'always
