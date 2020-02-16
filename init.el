@@ -111,6 +111,8 @@ by Prelude.")
 (require 'prelude-core)
 (require 'prelude-mode)
 (require 'prelude-editor)
+(require 'prelude-ido)
+(require 'prelude-key-chord)
 (require 'prelude-global-keybindings)
 
 ;; macOS specific settings
