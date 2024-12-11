@@ -136,9 +136,9 @@
 
 (recentf-mode +1)
 
-;; use shift + arrow keys to switch between visible buffers
+;; use ctrl + arrow keys to switch between visible buffers
 (require 'windmove)
-(windmove-default-keybindings)
+(windmove-default-keybindings 'ctrl)
 
 ;; automatically save buffers associated with files on buffer switch
 ;; and on windows switch
